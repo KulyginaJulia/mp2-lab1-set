@@ -1,0 +1,6 @@
+﻿  tset.cpp
+  tbitfield.cpp
+c:\users\юлия\mp2-lab1-set\src\tbitfield.cpp(74): warning C4552: '&' : operator has no effect; expected operator with side-effect
+c:\users\юлия\mp2-lab1-set\src\tbitfield.cpp(115): warning C4552: '!=' : operator has no effect; expected operator with side-effect
+  Generating Code...
+  bitfield.vcxproj -> C:\Users\Юлия\mp2-lab1-set\sln\vc10\Debug\bitfield.lib
