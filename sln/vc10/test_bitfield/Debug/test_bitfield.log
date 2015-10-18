@@ -2,4 +2,4 @@
   test_tbitfield.cpp
   test_main.cpp
   Generating Code...
-LINK : fatal error LNK1168: cannot open C:\Users\Юлия\mp2-lab1-set\sln\vc10\Debug\test_bitfield.exe for writing
+  test_bitfield.vcxproj -> C:\Users\Юлия\mp2-lab1-set\sln\vc10\Debug\test_bitfield.exe

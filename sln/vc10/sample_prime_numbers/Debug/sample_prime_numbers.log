@@ -1,2 +1,2 @@
 ﻿  sample_prime_numbers.cpp
-LINK : fatal error LNK1168: cannot open C:\Users\Юлия\mp2-lab1-set\sln\vc10\Debug\sample_prime_numbers.exe for writing
+  sample_prime_numbers.vcxproj -> C:\Users\Юлия\mp2-lab1-set\sln\vc10\Debug\sample_prime_numbers.exe
