@@ -109,13 +109,11 @@ int TBitField::operator==(const TBitField &bf) const // сравнение
 
 int TBitField::operator!=(const TBitField &bf) const // сравнение
 { 
-	int res = 1;
-	if ( BitLen != bf.BitLen ) {res = 0;}
+	int res = 0;
+	if ( BitLen != bf.BitLen ) {res = 1;}
 	else 
 		for ( int i = 0; i< BitLen; i++)
-		//for ( int i = 0; i< MemLen; i++)
-			//if (pMem[i] == bf.pMem[i]){res = 0; break; }
-			if (this->GetBit(i) == bf.GetBit(i)){res = 0; break; }
+			if (this->GetBit(i) == bf.GetBit(i)){res = 1; break; }
   return res;
 }
 
