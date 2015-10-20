@@ -14,6 +14,7 @@
 using namespace std;
 
 typedef unsigned int TELEM;
+//typedef short int TELEM;
 
 class TBitField
 {

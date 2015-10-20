@@ -295,3 +295,14 @@ TEST(TSet, check_negation_operator)
 
   EXPECT_EQ(expSet, set1);
 }
+
+TEST(TSet, longer_operation)
+{
+  const int size=100;
+  TSet set1(size), set2(2*size), set3(3*size), set4(4*size), f1set(4*size), f2set(4*size);
+  
+  f1set = set1 + set2 + set3 * set4;
+  f2set.InsElem(2);
+
+  EXPECT_NE(f1set,f2set);
+}

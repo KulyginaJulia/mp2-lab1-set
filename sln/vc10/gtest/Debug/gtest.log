@@ -1,4 +1,4 @@
-﻿Build started 10/20/2015 10:21:03 AM.
+﻿Build started 10/20/2015 11:20:55 AM.
      1>Project "Z:\mp2-lab1-set\sln\vc10\gtest\gtest.vcxproj" on node 3 (rebuild target(s)).
      1>_PrepareForClean:
          Deleting file "Debug\gtest.lastbuildstate".
@@ -17,4 +17,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:09.79
+Time Elapsed 00:00:09.88

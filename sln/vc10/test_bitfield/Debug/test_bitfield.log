@@ -1,4 +1,4 @@
-﻿Build started 10/20/2015 10:21:13 AM.
+﻿Build started 10/20/2015 11:21:05 AM.
      1>Project "Z:\mp2-lab1-set\sln\vc10\test_bitfield\test_bitfield.vcxproj" on node 2 (rebuild target(s)).
      1>_PrepareForClean:
          Deleting file "Debug\test_bitfield.lastbuildstate".
@@ -30,9 +30,12 @@
          Debug\test_tset.obj
          "Z:\mp2-lab1-set\sln\vc10\Debug\gtest.lib"
          "Z:\mp2-lab1-set\sln\vc10\Debug\bitfield.lib"
-     1>LINK : fatal error LNK1168: cannot open Z:\mp2-lab1-set\sln\vc10\Debug\test_bitfield.exe for writing
-     1>Done Building Project "Z:\mp2-lab1-set\sln\vc10\test_bitfield\test_bitfield.vcxproj" (rebuild target(s)) -- FAILED.
+         test_bitfield.vcxproj -> Z:\mp2-lab1-set\sln\vc10\Debug\test_bitfield.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\test_bitfield.unsuccessfulbuild".
+         Touching "Debug\test_bitfield.lastbuildstate".
+     1>Done Building Project "Z:\mp2-lab1-set\sln\vc10\test_bitfield\test_bitfield.vcxproj" (rebuild target(s)).
 
-Build FAILED.
+Build succeeded.
 
-Time Elapsed 00:00:07.89
+Time Elapsed 00:00:10.28

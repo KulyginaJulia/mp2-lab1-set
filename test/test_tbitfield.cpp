@@ -292,3 +292,14 @@ TEST(TBitField, bitfields_with_different_bits_are_not_equal)
 
   EXPECT_NE(bf1, bf2);
 }
+
+TEST(TBitfield, bitfields_starts_value)
+{
+	const int size = 2;
+	TBitField bf1(size), bf2(size);
+
+	for(int i = 0; i < size; i++)
+    bf2.ClrBit(i);
+
+	EXPECT_EQ(bf1, bf2);
+}
