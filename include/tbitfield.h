@@ -13,8 +13,9 @@
 
 using namespace std;
 
-typedef unsigned int TELEM;
-//typedef short int TELEM;
+typedef unsigned long long TELEM;
+//typedef unsigned int TELEM;
+//typedef unsigned short TELEM;
 
 class TBitField
 {
@@ -24,8 +25,8 @@ private:
   int  MemLen; // к-во эл-тов Мем для представления бит.поля
 
   // методы реализации
-  int   GetMemIndex(const int n) const; // индекс в pМем для бита n       (#О2)
-  TELEM GetMemMask (const int n) const; // битовая маска для бита n       (#О3)
+  int   GetMemIndex(const TELEM n) const; // индекс в pМем для бита n       (#О2)
+  TELEM GetMemMask (const TELEM n) const; // битовая маска для бита n       (#О3)
 public:
   TBitField(int len);                //                                   (#О1)
   TBitField(const TBitField &bf);    //                                   (#П1)
@@ -33,9 +34,9 @@ public:
 
   // доступ к битам
   int GetLength(void) const;      // получить длину (к-во битов)           (#О)
-  void SetBit(const int n);       // установить бит                       (#О4)
-  void ClrBit(const int n);       // очистить бит                         (#П2)
-  int  GetBit(const int n) const; // получить значение бита               (#Л1)
+  void SetBit(const TELEM n);       // установить бит                       (#О4)
+  void ClrBit(const TELEM n);       // очистить бит                         (#П2)
+  int  GetBit(const TELEM n) const; // получить значение бита               (#Л1)
 
   // битовые операции
   int operator==(const TBitField &bf) const; // сравнение                 (#О5)
