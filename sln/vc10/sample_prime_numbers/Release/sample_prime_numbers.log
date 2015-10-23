@@ -1,22 +1,3 @@
-﻿Build started 10/20/2015 12:45:41 PM.
-     1>Project "Z:\mp2-lab1-set\sln\vc10\sample_prime_numbers\sample_prime_numbers.vcxproj" on node 3 (build target(s)).
-     1>InitializeBuildStatus:
-         Creating "Release\sample_prime_numbers.unsuccessfulbuild" because "AlwaysCreate" was specified.
-       ClCompile:
-         All outputs are up-to-date.
-       Link:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\mp2-lab1-set\sln\vc10\Release\sample_prime_numbers.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../Release bitfield.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\sample_prime_numbers.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Z:\mp2-lab1-set\sln\vc10\Release\sample_prime_numbers.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:\mp2-lab1-set\sln\vc10\Release\sample_prime_numbers.lib" /MACHINE:X64 Release\sample_prime_numbers.obj
-         "Z:\mp2-lab1-set\sln\vc10\Release\bitfield.lib"
-         Generating code
-         Finished generating code
-         sample_prime_numbers.vcxproj -> Z:\mp2-lab1-set\sln\vc10\Release\sample_prime_numbers.exe
-       Manifest:
-         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"Z:\mp2-lab1-set\sln\vc10\Release\sample_prime_numbers.exe;#1" /manifest Release\sample_prime_numbers.exe.intermediate.manifest
-       FinalizeBuildStatus:
-         Deleting file "Release\sample_prime_numbers.unsuccessfulbuild".
-         Touching "Release\sample_prime_numbers.lastbuildstate".
-     1>Done Building Project "Z:\mp2-lab1-set\sln\vc10\sample_prime_numbers\sample_prime_numbers.vcxproj" (build target(s)).
-
-Build succeeded.
-
-Time Elapsed 00:00:24.96
+﻿  Generating code
+  Finished generating code
+  sample_prime_numbers.vcxproj -> C:\Users\Юлия\mp2-lab1-set\sln\vc10\Release\sample_prime_numbers.exe

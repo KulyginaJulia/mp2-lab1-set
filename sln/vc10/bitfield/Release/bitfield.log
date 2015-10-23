@@ -1,21 +1,4 @@
-﻿Build started 10/20/2015 12:45:35 PM.
-     1>Project "Z:\mp2-lab1-set\sln\vc10\bitfield\bitfield.vcxproj" on node 2 (build target(s)).
-     1>InitializeBuildStatus:
-         Creating "Release\bitfield.unsuccessfulbuild" because "AlwaysCreate" was specified.
-       ClCompile:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I../../../include /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /errorReport:prompt ..\..\..\src\tbitfield.cpp
-         tbitfield.cpp
-     1>..\..\..\src\tbitfield.cpp(44): warning C4244: 'initializing' : conversion from 'const TELEM' to 'int', possible loss of data
-     1>..\..\..\src\tbitfield.cpp(50): warning C4334: '<<' : result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
-       Lib:
-         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"Z:\mp2-lab1-set\sln\vc10\Release\bitfield.lib" /NOLOGO /LTCG Release\tbitfield.obj
-         Release\tset.obj
-         bitfield.vcxproj -> Z:\mp2-lab1-set\sln\vc10\Release\bitfield.lib
-       FinalizeBuildStatus:
-         Deleting file "Release\bitfield.unsuccessfulbuild".
-         Touching "Release\bitfield.lastbuildstate".
-     1>Done Building Project "Z:\mp2-lab1-set\sln\vc10\bitfield\bitfield.vcxproj" (build target(s)).
-
-Build succeeded.
-
-Time Elapsed 00:00:05.04
+﻿  tbitfield.cpp
+..\..\..\src\tbitfield.cpp(44): warning C4244: 'initializing' : conversion from 'const TELEM' to 'int', possible loss of data
+..\..\..\src\tbitfield.cpp(50): warning C4334: '<<' : result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+  bitfield.vcxproj -> C:\Users\Юлия\mp2-lab1-set\sln\vc10\Release\bitfield.lib
